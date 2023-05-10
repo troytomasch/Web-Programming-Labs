@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Palindrome Checker</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/public/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Palindrome Checker</h1>
+      <p class="instructions">Enter text to see whether it's a palindrome!</p>
+    </header>
+    <div id="error" hidden>Invalid Input! Try again</div>
+    <form id="form">
+      <label>Check here -></label>
+      <textarea
+        id="inputText"
+        name="phrase"
+        placeholder="Enter palindrome here"
+      ></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <ol id="attempts"></ol>
+    <footer>
+      <p class="footerInfo">Created by :</p>
+      <p class="footerInfo" id="name">Troy Tomasch 10446641</p>
+    </footer>
+    <script src="/public/js/palindrome.js" async defer></script>
+  </body>
+</html>

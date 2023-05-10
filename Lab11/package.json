@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-11",
+  "version": "1.0.0",
+  "description": "Lab 11 for CS546",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Troy Tomasch 10446641",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

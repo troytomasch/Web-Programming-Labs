@@ -1,0 +1,47 @@
+.is-palindrome {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+.not-palindrome {
+  color: #ff0000;
+}
+
+.title {
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.footerInfo {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+}
+
+#attempts {
+  list-style-type: lower-roman;
+}
+
+#inputText {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 75px;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+}
+
+#name {
+  font-weight: bold;
+}
+
+.instructions {
+  font-weight: normal;
+  font-size: 14pt;
+}

@@ -1,0 +1,14 @@
+<main>
+  <div>
+    <h1 id="characterName">{{character_name}}</h1>
+    <img alt={{character_name}} src="{{image_source}}.{{extension}}" />
+    <p>{{character_description}}</p>
+    <h2 id="comics">Comics</h2>
+    <ul>
+      {{#each comics}}
+        <li>{{this.name}}</li>
+      {{/each}}
+    </ul>
+  </div>
+    <a class="searchAgain", href="/">Make another search</a>
+</main>

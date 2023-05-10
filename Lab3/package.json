@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "Lab 3 for CS546",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "author": "Troy Tomasch 10446641",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}

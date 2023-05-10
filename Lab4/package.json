@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Lab 4 for CS546",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "Troy Tomasch 10446641",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.1.3"
+  }
+}

@@ -1,0 +1,12 @@
+<h1 class="homeTitle">{{title}}</h1>
+<main>
+  <p class="siteDesc">This is a site where you can enter in data to be searched
+    for in the Marvel database. You will recieve back information based on what
+    you search for. You can search by inputting a general search term.
+  </p>
+  <form action="/search" method="post" class="requestCharacter">
+    <label class="inputCharacter">Search here:</label>
+    <input type="text" name="search" class="inputCharacter" />
+    <input type="submit" id="submitButton"/>
+  </form>
+</main>

@@ -1,0 +1,61 @@
+/* Home */
+
+.homeTitle {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.siteDesc {
+  font-style: italic;
+}
+
+.inputCharacter {
+  font-weight: bold;
+}
+
+#submitButton {
+    background-color: gray;
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+/* Characters */
+.charsFound {
+  color: darkblue;
+}
+
+#searchTerm {
+    font-style: italic;
+}
+
+li {
+    list-style: square;
+}
+
+.searchAgain {
+    text-decoration: none;
+    border: 5px;
+    border-style: solid;
+    border-color: green;
+    color: white;
+    background-color: grey;
+}
+
+/* Character */
+
+#characterName {
+    color: gray;
+}
+
+#comics {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+}
